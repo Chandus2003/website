@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+/*.........................*/
+/*.........................*/
+/*....Header Section ......*/
+/*.........................*/
+/*.........................*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 40px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   gap: 40px;
+   margin-right: 550px;
+   font-size: 20px;
+   font-weight: 800;
+   cursor: pointer;
+  
+
+}
+#logo{
+    width: 120px;
+}
+nav li:hover{
+    text-decoration: underline;
+}
+
+/*.........................*/
+/*.........................*/
+/*....Main Section ......*/
+/*.........................*/
+/*.........................*/
+
+#bacground{
+   /* position: relative; */
+    width: 45%;
+}
+.left_top{
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 1;
+    margin-left: 100px;
+
+}
+h1{ width: 60%;
+    font-size: 40px;
+    margin: 20px 0 20px 40px;
+}
+
+p{
+    margin: 20px 0 20px 30px;
+    width: 70%;
+}
+button{
+    width: 250px;
+    height: 45px;
+    border:none;
+    border-radius: 20px;
+    background-color: rgba(3, 155, 69, 0.975);
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 20px 0 20px 20px;
+    cursor: pointer;
+
+}
+button:hover{
+
+    color: rgb(253, 1, 18);
+    background-color: rgb(239, 238, 236);
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+#green {
+    position: absolute;
+    top: 200px;
+    left: 930px;
+    right: 100;
+    z-index: 10px;
+    width: 320px;
+}
+
+#yellow{
+    position: absolute;
+    top: 260px;
+    left: 980px;
+    right: 100;
+    width: 270px;
+    z-index: 0px;
+}
+
+#doctor{
+
+    position: absolute;
+    top: 50px;
+    left: 880px;
+    right: 100;
+   
+    z-index: 0px;
+    width: 370px;
+}
+#top_angle{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+  
+    
+    z-index: 0px;
+    
+}
+#buttom_angle{
+    position: absolute;
+    top: 450px;
+    left: 450px;
+   
+    
+    z-index: 0px;
+    
+}
+#mouse{
+    position: absolute;
+    top: 490px;
+    left: 490px;
+   
+    
+    z-index: 0px;
+}
+
+a{
+    text-decoration: none;
+   
+}
